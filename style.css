@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.canvas{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    /* width: 1920px;
+    height: 1080px; */
+}
+
+.ball-text{
+    position: fixed;
+    z-index: 2;
+    color:pink;
+    font-size: 5rem;
+    right: 20%;
+    bottom: 10%;
+    transform: translate(-20%, -60%);
+}
+
+/* .details{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+} */
